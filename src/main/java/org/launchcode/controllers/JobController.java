@@ -32,7 +32,7 @@ public class JobController {
 
         // TODO #1 - get the Job with the given ID and pass it into the view
 
-        ArrayList<Job> listJobs = jobData.findAll(); //get all jobs
+        ArrayList<Job> listJobs = jobData.findAll();
         for (Job job : listJobs) {
             int uniqueID = job.getId();
             if (uniqueID == id) {

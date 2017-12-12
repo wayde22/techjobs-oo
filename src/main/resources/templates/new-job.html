@@ -24,6 +24,8 @@
                         th:text="${employer.value}"></option>
             </select>
 
+            <!-- TODO #5 - Create <select> dropdowns for other job fields -->
+
             <br/>
             <label th:for="location">Location</label>
             <select th:field="*{locationId}">
@@ -48,7 +50,7 @@
 
         </div>
 
-        <!-- TODO #5 - Create <select> dropdowns for other job fields -->
+
 
         <input type="submit" value="Add Job" />
     </form>
